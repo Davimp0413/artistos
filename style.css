@@ -33,12 +33,14 @@ input {
     width: 10px;
     height: 10px;
     background-color: #ffffff;
+    border: 1px solid black;
 }
 .grade {
     display: grid;
     grid-template-columns: repeat(32, 10px);
     grid-template-rows: repeat(32, 10px);
-    gap: 0px;
+    gap: 1px;
     justify-content: center;
     margin-top: 20px;
+    
 }
